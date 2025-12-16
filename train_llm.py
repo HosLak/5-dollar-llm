@@ -202,7 +202,7 @@ def main():
     print("-" * 70)
     start = time.time()
 
-    model, metrics = train_moe_model(config, train_loader, val_loader, output_dir=output_dir, experiment_name=experiment_name)
+    model, metrics, _ = train_moe_model(config, train_loader, val_loader, output_dir=output_dir, experiment_name=experiment_name)
     elapsed = (time.time() - start) / 60
     logger.info("Training complete")
 
