@@ -181,7 +181,7 @@ def main():
     parser.add_argument("--save_every", type=int, help="Override save_every steps")
     parser.add_argument("--batch_size", type=int, help="Override batch_size")
     parser.add_argument("--gradient_accumulation_steps", type=int, help="Override gradient_accumulation_steps")
-    parser.add_argument("--target_train_loss", type=float, help="Stop training when training loss reaches this value")
+    parser.add_argument("--target_train_loss", type=float, default=4.5, help="Stop training when training loss reaches this value")
     parser.add_argument("--log_every", type=int, default=1, help="Logging frequency in steps")
     parser.add_argument("--warmup_ratio", type=float, help="Override warmup ratio")
     parser.add_argument("--muon_momentum", type=float, help="Override Muon momentum")
