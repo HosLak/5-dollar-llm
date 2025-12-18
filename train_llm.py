@@ -312,7 +312,7 @@ def main():
         experiment_name=experiment_name,
         load_weights_path=args.load_checkpoint,
         target_train_loss=args.target_train_loss,
-        warmup=use_warmup
+        # warmup=use_warmup
     )
     
     model, metrics, _, setup_time, training_time = results
