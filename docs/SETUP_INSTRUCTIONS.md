@@ -12,7 +12,7 @@ If you don't have a GPU, you may use a cloud GPU.
 
 #### Free GPUs:
 - **Lightning AI**: You can use the free **L4 GPU**.
-- **Google Colab**: Use the free T4 or paid A100.
+- **Google Colab**: Use the free T4 or paid A100. [Click here to open](https://colab.research.google.com/drive/1weIhojM_byumh-X-Fdb3qv4sQpTGj0Jt?usp=sharing)
 - **Tip**: If the model doesn't fit in your GPU memory, you can **reduce the model size** (e.g., reduce `batch_size`, `n_layer`, or `n_embd` in `configs/llm_config.py`).
 
 #### Paid GPUs:
